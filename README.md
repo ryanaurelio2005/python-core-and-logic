@@ -2,96 +2,91 @@
 
 # 🐍 Python Fundamentals & Logic Lab
 
-**A hands-on journey through essential Python concepts, functions, and applied logic.**
+**Uma trilha completa e estruturada do básico ao intermediário em Python, com foco em fundamentos, boas práticas e resolução de problemas.**
 
 [![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-## 📌 About the Project
+## 📌 Sobre a Trilha
 
-This repository brings together hands-on implementations, study notes, and algorithms built to strengthen foundational programming skills in Python. The exercises cover everything from function anatomy and variable scopes to dynamic numeric processing and practical problem-solving applied to real-world scenarios (such as weather tracking and agricultural yield analysis).
-
----
-
-## 🚀 Key Concepts & Topics Covered
-
-- **Functions & Scopes:** Building modular code with `def`, values returned with `return`, and default vs. non-default parameters.
-- **Dynamic Arguments (`*args`):** Working with variable-length positional argument tuples to create flexible functions.
-- **Exception Handling:** Robust user input validation using `try...except ValueError` and defensive checks (`raise ValueError`).
-- **List Comprehensions:** Idiomatic Python filtering (evens, odds, positive numbers, negative numbers, and zero counts).
-- **Built-in Functions & Aggregations:** Utilizing core methods like `sum()`, `max()`, `min()`, `len()`, and `map()`.
+Este repositório reúne um currículo prático e modular de Python, projetado para consolidar desde a sintaxe fundamental da linguagem até estruturas de dados, laços iterativos e modularização de funções com foco em cenários práticos (incluindo estudos aplicados ao agronegócio e meteorologia).
 
 ---
 
-## 🎯 Featured Practice Problems
+## 📚 Módulos do Repositório
 
-| Script / Problem | Description |
-| :--- | :--- |
-| **📊 Dynamic Statistical Processing** | Calculating mean, minimum, and maximum values from an arbitrary number of inputs using `*args`. |
-| **🌡️ Thermal Analysis & Amplitude** | Classifying temperature zones (Cold, Ideal, Hot), calculating means, and determining thermal amplitude. |
-| **🌾 Agricultural Yield Report** | Evaluating crop plot efficiency, computing average harvest yield, and identifying top-performing plots. |
-| **🔢 Numeric Filtering & Aggregation** | Dynamically sorting and summing positive, negative, and zero values from raw text inputs. |
+| Módulo | Notebook | Descrição & Tópicos |
+| :--- | :--- | :--- |
+| **01** | [`01_variaveis_e_operadores.ipynb`](notebooks/01_variaveis_e_operadores.ipynb) | Tipos primitivos (`int`, `float`, `str`, `bool`), inspeção com `type()`, operadores aritméticos, conversões de tipo (*type casting*) e formatação com f-strings. |
+| **02** | [`02_estruturas_condicionais.ipynb`](notebooks/02_estruturas_condicionais.ipynb) | Controle de fluxo (`if`, `elif`, `else`), operadores relacionais e lógicos (`and`, `or`, `not`), condicionais ternárias e simulações com o módulo `random`. |
+| **03** | [`03_lacos_de_repeticao.ipynb`](notebooks/03_lacos_de_repeticao.ipynb) | Repetição com laços `for` e `while`, gerador `range()`, acumuladores, construção de padrões aninhados, desvios com `break`/`continue` e simulação de caixa eletrônico. |
+| **04** | [`04_listas_e_colecoes.ipynb`](notebooks/04_listas_e_colecoes.ipynb) | Estruturas de dados, indexação positiva/negativa, fatiamento (*slicing*), métodos (`append`, `insert`, `pop`, `sort`), funções de agregação e telemetria de sensores IoT. |
+| **05** | [`05_funcoes_e_modularizacao.ipynb`](notebooks/05_funcoes_e_modularizacao.ipynb) | Funções com `def`, *Type Hints*, *Docstrings*, argumentos variáveis (`*args`, `**kwargs`), escopos (`global`/`nonlocal`), lambdas, `map`/`filter` e estudos de caso agronômicos. |
 
 ---
 
-## 📂 Repository Structure
+## 📂 Estrutura de Diretórios
 
 ```bash
+python-core-and-logic/
 ├── 📁 notebooks/
-│   └── 01_functions_and_logic.ipynb   # Interactive notebook with documented code and outputs
-├── .gitignore                         # Files and folders ignored by Git
-└── README.md                          # Main project documentation
+│   ├── 01_variaveis_e_operadores.ipynb      # Fundamentos, Tipos e I/O
+│   ├── 02_estruturas_condicionais.ipynb     # Lógica Booleana e Decisão
+│   ├── 03_lacos_de_repeticao.ipynb          # Laços For, While e Controle
+│   ├── 04_listas_e_colecoes.ipynb           # Listas, Slicing e Métodos
+│   └── 05_funcoes_e_modularizacao.ipynb     # Funções, Args/Kwargs e Casos de Uso
+├── .gitignore                               # Proteção contra caches e checkpoints
+└── README.md                                # Documentação e guia da trilha
 ```
 
 ---
 
-## 💻 Getting Started Locally
+## 💻 Como Executar Localmente
 
-### Prerequisites
+### Pré-requisitos
 - [Python 3.10+](https://www.python.org/)
-- [Jupyter Notebook](https://jupyter.org/install) or VS Code with the Python extension
+- [Jupyter Notebook](https://jupyter.org/install) ou VS Code com extensão Python
 
-### Setup & Execution
-
-1. **Clone the repository:**
+### Passo a passo
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/ryanaurelio2005/python-core-and-logic.git
    ```
 
-2. **Navigate to the project directory:**
+2. **Acesse a pasta:**
    ```bash
    cd python-core-and-logic
    ```
 
-3. **Launch Jupyter Notebook or Jupyter Lab:**
+3. **Inicie o Jupyter:**
    ```bash
    jupyter notebook
    ```
 
-4. Open `notebooks/01_functions_and_logic.ipynb` and execute the cells.
+4. Navegue até a pasta `notebooks/` e execute o módulo desejado.
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tecnologias Utilizadas
 
-- **Language:** Python 3.12
-- **Interactive Environment:** Jupyter Notebook / IPython
-- **Version Control:** Git & GitHub
+- **Linguagem:** Python 3.12+
+- **Ambiente:** Jupyter Notebook / IPython
+- **Versionamento:** Git & GitHub
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Autor
 
-Built by **[Ryan Oliveira](https://github.com/ryanaurelio2005)**.
+Desenvolvido por **[Ryan Oliveira](https://github.com/ryanaurelio2005)**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ryanaurelio2005)
 
 ---
 <div align="center">
-  <sub>⭐ If you found this repository helpful, consider leaving a star!</sub>
+  <sub>⭐ Se este repositório te ajudou nos estudos de Python, deixe uma estrela!</sub>
 </div>
