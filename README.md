@@ -43,7 +43,55 @@ This repository brings together hands-on implementations, study notes, and algor
 
 ```bash
 ├── 📁 notebooks/
-│   └── 01_functions_and_logic.ipynb   # Interactive notebook with code and notes
-├── 📁 scripts/                        # (Optional) Standalone Python scripts (.py)
+│   └── 01_functions_and_logic.ipynb   # Interactive notebook with documented code and outputs
 ├── .gitignore                         # Files and folders ignored by Git
 └── README.md                          # Main project documentation
+```
+
+---
+
+## 💻 Getting Started Locally
+
+### Prerequisites
+- [Python 3.10+](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/install) or VS Code with the Python extension
+
+### Setup & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ryanaurelio2005/python-core-and-logic.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd python-core-and-logic
+   ```
+
+3. **Launch Jupyter Notebook or Jupyter Lab:**
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open `notebooks/01_functions_and_logic.ipynb` and execute the cells.
+
+---
+
+## 🛠️ Built With
+
+- **Language:** Python 3.12
+- **Interactive Environment:** Jupyter Notebook / IPython
+- **Version Control:** Git & GitHub
+
+---
+
+## 👨‍💻 Author
+
+Built by **[Ryan Oliveira](https://github.com/ryanaurelio2005)**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ryanaurelio2005)
+
+---
+<div align="center">
+  <sub>⭐ If you found this repository helpful, consider leaving a star!</sub>
+</div>
